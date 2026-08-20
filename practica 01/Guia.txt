@@ -1,0 +1,45 @@
+Partiendo de Windows desktop
+1 DESCARGA DE MAQUINA VIRTUAL 
+En tu navegador deberas buscar la herramienta gratuita para la creacion de maquinas virtuales de oracle "VirtalBox" despues deberas de descargar la version 
+con la que la arquitectura de hardware es compatible 
+
+1.2 DESCARGAR LA IMAGEN ISO DE UBUNTU
+De igual manera que en el anterior paso deberas de bucar en tu navegador "Ubuntu" lo ideal es decargar las versiones de ubuntu "LTS" ya que son
+las versiones mas estables (preferiblemente de la version 16 a la version actual lts 26.04)'
+
+1.3 INSTALACION DEL ISO EN TU VirtalBox
+ Para la instalacion de tu iso de ubuntu deberas de abrir tu Virtualbox y seleccionar "New" en la parte superior de derecha despues buscaras
+ el iso de tu distro en la carpeta donde hayas destinado tu descarga despues crearemos un usuario y una contraseña, despues asignaremos el 
+ hardware que querramos designar para nuestra "VM" y procederemos con la instalacion al finalizar la misma tendremos nuestra version de ubuntu
+ lista para ser usada
+
+2 Instalacion de Visual Studio Code
+
+Iremos a la pagina oficial de Visual Studio Code (https://code.visualstudio.com/) decargaremos el .exe y procederemos con la instalacion 
+directa una vez instalada 
+
+3 INSTALACION DE GIT 
+
+Para instalar git de igual manera deberemos de dirigirnos a la pagina oficial de git (https://git-scm.com/) e instalaremos al version para
+Windows de igual
+
+4 CREACION DE CUENTA DE GITHUB
+
+Para crear una cuenta en GitHub  accede a (https://github.com)  y haz clic en Sign up (Registrarse) en la esquina superior derecha.
+ Completa el formulario con un nombre de usuario único, una dirección de correo electrónico válida y una contraseña
+
+ 5 CREACION DE REPOSITORIO EN GITHUB
+ Para crear un repositorio en GitHub, inicia sesión y haz clic en el botón + en la esquina superior derecha, seleccionando New repository 
+ Asigna un nombre único y una descripción opcional, elige la visibilidad (pública o privada) y decide si deseas inicializarlo con un archivo README, un .gitignore o una licencia.
+ Finalmente, haz clic en Create repository para completar el proceso.
+ 
+ 5.1 CLONAR REPOSITORIO DE GITHUB Y SUBIR COMMIT
+ Dentro de de Visual Studio Code encontraremos el icono de "source control" en el apartado encontraremos el boton de "clone repository", una vez clonado colocaremos un mensaje
+ referente al comit que vayamos a subir ejem(Update guia1) haciendo referencia a que fue una actualizacion del archivo 
+
+ 5.2 Solucion de error de registro 
+
+ En caso de no poder sincronizar nuestro repositorio por un error en el registro
+
+ git config --global user.name "Tunombre-Tuapellido"
+ git config --global user.email "tuemali@" 
