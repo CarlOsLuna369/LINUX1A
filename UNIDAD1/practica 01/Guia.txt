@@ -43,3 +43,5 @@ Para crear una cuenta en GitHub  accede a (https://github.com)  y haz clic en Si
 
  git config --global user.name "Tunombre-Tuapellido"
  git config --global user.email "tuemali@" 
+
+ 5 CREACION DE CARPETA CON TERMINAL DE UBUNTU
